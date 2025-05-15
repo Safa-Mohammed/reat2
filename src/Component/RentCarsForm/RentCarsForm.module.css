@@ -1,0 +1,97 @@
+.container {
+    display: flex;
+    padding: 20px 10px 0px 40px;
+    justify-self: center;
+   background-image: url('../../assets/images/landing-page/sec-5/Vector.png');
+   background-size:520px;
+   background-repeat: no-repeat;
+    gap: 30px;
+}
+
+.leftPanel {
+    flex: 1;
+    padding-right: 2rem;
+    width: 90%;
+}
+
+.heading {
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+.free {
+    color: #007bff;
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+.subheading {
+    font-family: 'Poppins';
+    font-weight: 400;
+    color: #3E3E3E;
+    font-size: 16px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.downloadButtons img {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    height: 50px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.formGroup {
+    margin-bottom: 0.75rem;
+    width: 50%;
+}
+.formWrapper {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+}
+.formGroup input {
+  background-color: #CEDCFF; /* Replace with your desired color */
+  color: #000;
+  padding: 0.5rem;
+  border-radius: 20px;
+}
+.formBtn{
+    width: 48%;
+    padding-bottom: 30px;
+}
+.sendButton {
+    width: 40%;
+    background-color: #aea49a;
+    border: none;
+    display: flex;
+    justify-content: center;
+
+   
+}
+
+.rightPanel {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .formSection,
+    .imageSection {
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+}

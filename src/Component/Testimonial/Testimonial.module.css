@@ -1,0 +1,91 @@
+.testimonialSection {
+  padding-bottom: 20px;
+  text-align: center;
+
+}
+.contain{
+  background-image: url('../../assets/images/landing-page/sec-6/bg-sec6.png');
+  background-size: 200px;
+  background-repeat:  no-repeat;
+}
+.label {
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: 1rem;
+  text-align: center;
+  text-transform: uppercase;
+  background: #ECF5FF;
+  color: #1572D3;
+  font-family: 'Poppins';
+  padding: 6px 12px;
+  font-size: 12px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  display: inline-block;
+}
+
+.title {
+  color: #333333;
+  margin-bottom: 3rem;
+  font-size: 30px;
+  padding-top: 20px;
+  font-family: 'Poppins';
+  font-weight: 500;
+}
+
+.cardWrapper {
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  overflow: hidden;
+  display: flex;
+  text-align: left;
+}
+
+.description{
+  font-family: 'Poppins';
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.5; 
+  letter-spacing: 0;
+}
+.imagePart {
+  width: 42%;
+  object-fit: cover;
+  height: 100%;
+}
+
+.contentPart {
+  padding: 22px;
+  flex-grow: 1;
+}
+
+.stars {
+  color: #ffc107;
+  margin-bottom: 10px;
+}
+
+.rating {
+  font-size: 64px;
+  font-weight: bold;
+  font-family: 'Poppins';
+}
+.starsLabel {
+  font-weight: normal;
+  font-size: 36px;
+  font-family: 'Poppins';
+}
+
+.author {
+  font-weight: 500;
+  margin-top: 15px;
+  font-size: 24px;
+  font-family: 'Poppins';
+}
+
+.timestamp {
+  color: #838383;
+  font-size: 14px;
+  font-weight: 400;
+   font-family: 'Poppins';
+}

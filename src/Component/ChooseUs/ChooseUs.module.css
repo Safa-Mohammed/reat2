@@ -1,0 +1,71 @@
+.chooseUsSection {
+  background-color: #f9fafe;
+  padding: 60px 20px;
+  position: relative;
+}
+
+.carImage {
+  max-width: 100%;
+  z-index: 1;
+}
+
+.infoCard {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+  padding: 20px;
+}
+
+.infoIcon {
+  background-color: #e8f0fe;
+  padding: 20px;
+  border-radius: 10px;
+  font-size: 20px;
+  color: #0d6efd;
+}
+
+.highlightText {
+  font-weight: 500;
+  font-family: 'Poppins';
+  margin-bottom: 15px;
+  font-size: 20px;
+  color: #000000;
+}
+
+.descriptionText {
+  color: #6D6D6D;
+  font-family: 'Poppins';
+  font-weight: 500;
+  line-height: 1.6;
+  font-size: 14px;
+}
+
+.sectionTitle {
+  color: #333333;
+  margin-bottom: 3rem;
+  font-size: 30px;
+  padding-top: 20px;
+  font-family: 'Poppins';
+  font-weight: 500;
+}
+
+.label {
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: 1rem;
+  text-align: center;
+  text-transform: uppercase;
+  background: #ECF5FF;
+  color: #1572D3;
+  font-family: 'Poppins';
+  padding: 6px 12px;
+  font-size: 12px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  display: inline-block;
+}
+
+.chooseUsImage {
+  background-image: url('./../../assets/images/landing-page/sec-5/Vector.png');
+  background-size: cover;
+}

@@ -1,0 +1,246 @@
+.wrapper {
+  padding: 0.9rem;
+  max-width: 1220px;
+  margin: auto;
+}
+
+.title {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.grid {
+  display: grid;
+  gap: 1.1rem;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+}
+
+.card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 0.9rem;
+  background: #fff;
+  text-align: center;
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.02);
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.image {
+  width: 100%;
+ padding: 30px;
+  object-fit: cover;
+  border-radius: 4px;
+}
+.nameCar{
+  font-weight: 500;
+  font-family:'Poppins';
+   padding-top: 10px;
+   margin-left: 2px;
+   font-size: 16px;
+  text-align: left;
+  color: #262626;
+}
+.rating {
+  text-align: left;
+}
+.ratingdReview{
+   font-weight: 500;
+  font-family:'Poppins';
+   padding-top: 10px;
+   margin-left: 2px;
+   font-size: 16px;
+  text-align: left;
+  color: #737373;
+}
+.ratingValue{
+  font-weight: 500;
+  font-family:'Poppins';
+   padding-top: 10px;
+   margin-left: 2px;
+   font-size: 16px;
+  text-align: left;
+  color: #262626;
+}
+.features {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* two equal columns */
+  gap: 9px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-size: 12px;
+  color: #959595;
+  font-family: 'Poppins';
+}
+
+.features li {
+  display: flex;
+  align-items: center; 
+  padding-bottom: 20px;
+}
+
+.icon {
+  width: 20px;
+  height: 20px;
+  margin-right: 6px; /* space between icon and text */
+  flex-shrink: 0; /* prevent icon from shrinking */
+}
+
+ .sectionPrice{
+  border-top: #959595 0.2px solid;
+ }
+
+.priceRow {
+  display: flex;
+  justify-content: space-between;
+  padding: 4px 0px; 
+}
+
+.priceWord {
+  color: #595959;  
+  font-family:'Poppins';
+  padding-top: 20px;
+  padding-left: 8px;
+  font-size: 14px;
+}
+
+.priceData {
+   color: #000000;  
+  font-family:'Poppins';
+  padding-top: 20px;
+  font-size: 16px;
+  font-weight: 600;
+ 
+}
+.priceDay{
+     color: #595959;  
+  font-family:'Poppins';
+  padding-top: 20px;
+  padding-left: 8px;
+  font-size: 16px;
+  text-align: right;
+}
+.button {
+  margin-top: 1rem;
+  padding: 0.6rem 5rem;
+  background: #1572D3;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+ 
+
+.showMore {
+  width: 19%;
+  margin-top: 2rem;
+  display: block;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0.75rem 16px;
+  font-size: 1rem;
+  background: #ffffff;
+  color: #4E4E4E;
+  border: black 1px solid;
+  text-decoration: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.showMore:hover {
+  background: #0056b3;
+  color: #ffffff;
+}
+
+.pagination {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+}
+
+.pageButton {
+  padding: 0.5rem 1rem;
+  border: 1px solid #ccc;
+  background-color: #F7F8F9;
+  cursor: pointer;
+  color: #1D2939;
+  font-family: "Poppins";
+  border-radius: 4px;
+  font-weight: 500;
+}
+
+.pageButton:hover {
+  background-color: #eee;
+}
+
+.activePage {
+  background-color: #333;
+  color: white;
+}
+
+  .title{
+      font-size: 14px;
+  font-weight: 500;
+  margin-bottom: 1rem;
+  text-align: center;
+  text-transform: uppercase;
+  background: #ECF5FF;
+    color: #1572D3;
+  width: 20%;
+  padding: 6px;
+  font-family: 'Poppins';
+  margin: auto;
+
+  }
+.sectionSubtitle{
+    color: #333333;
+  text-align: center;
+  margin-bottom: 3rem;
+  font-size: 38px;
+  padding-top: 20px;
+  font-family: 'Poppins';
+  font-weight: 500;
+}
+
+.cardLink {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
+
+
+
+.searchContainer {
+  position: relative;
+  width: 100%;
+  padding-bottom: 20px;
+}
+
+.searchInput {
+  width: 100%;
+  padding: 10px 80px 10px 15px; /* leave space for the button */
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.searchButton {
+  position: absolute;
+  right: 5px;
+  top: 35%;
+  transform: translateY(-50%);
+  height: 50%;
+  padding: 0 25px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
